@@ -1,0 +1,53 @@
+{
+  "_args": [
+    [
+      "bootstrap-table-group-by-carn@1.0.7",
+      "/Users/mb71781/Documents/dev/front1/webapp"
+    ]
+  ],
+  "_development": true,
+  "_from": "bootstrap-table-group-by-carn@1.0.7",
+  "_id": "bootstrap-table-group-by-carn@1.0.7",
+  "_inBundle": false,
+  "_integrity": "sha1-cfJZAtQaOFrDmBYvxGOC6VfoWqs=",
+  "_location": "/bootstrap-table-group-by-carn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "bootstrap-table-group-by-carn@1.0.7",
+    "name": "bootstrap-table-group-by-carn",
+    "escapedName": "bootstrap-table-group-by-carn",
+    "rawSpec": "1.0.7",
+    "saveSpec": null,
+    "fetchSpec": "1.0.7"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://globaldevtools.bbva.com/bitbucket/scm/~juancarlos.ramirez/bootstrap-table-group-by-carn.git",
+  "_spec": "1.0.7",
+  "_where": "/Users/mb71781/Documents/dev/front1/webapp",
+  "author": "",
+  "bugs": {
+    "url": "https://gitlab.com/cesarn/bootstrap-table-group-by-carn/issues"
+  },
+  "dependencies": {
+    "bootstrap-table": "^1.18.2",
+    "jquery": "^3.6.0"
+  },
+  "description": "Se creo el repositorio para almacenar la librería group-by publicada en npm.",
+  "homepage": "https://globaldevtools.bbva.com/bitbucket/scm/~juancarlos.ramirez/bootstrap-table-group-by-carn.git",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bootstrap-table-group-by-carn",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@globaldevtools.bbva.com:7999/~juancarlos.ramirez/bootstrap-table-group-by-carn.git"
+  },
+  "scripts": {
+    "build": "browserify ./src/js/bootstrap-table-group-by-carn.js -o ./dist/bootstrap-table-group-by-carn.js"
+  },
+  "version": "1.0.7"
+}

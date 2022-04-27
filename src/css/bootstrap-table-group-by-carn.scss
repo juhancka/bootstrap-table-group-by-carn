@@ -1,0 +1,14 @@
+.bootstrap-table .table > tbody > tr.groupBy.expanded,
+.bootstrap-table .table > tbody > tr.groupBy.collapsed {
+  cursor: pointer;
+}
+
+.bootstrap-table .table > tbody > tr.groupBy.expanded > td > button,
+.bootstrap-table .table > tbody > tr.groupBy.collapsed > td > button {
+  background-color: transparent;
+  border-style: none;
+}
+
+.bootstrap-table .table > tbody > tr.hidden {
+  display: none;
+}
